@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Monaspace Xenon Var', monospace;
+  background-color: #293233;
+  color: #e2e2e2;
+}
+
+a {
+  text-decoration: none;
+}

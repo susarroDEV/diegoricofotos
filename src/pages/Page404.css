@@ -1,0 +1,44 @@
+.df404-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 1rem;
+}
+
+.df404-statuscode {
+  font-size: 10rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  color: aliceblue;
+}
+
+.df404-statuscode strong {
+  font-size: 10rem;
+  filter: brightness(0.8) invert(1); 
+  margin-top: 3rem;
+  height: 1em;
+}
+
+.df404-statusinfo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: aliceblue;
+}
+
+.df404-goback {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: aliceblue;
+  text-decoration: none;
+  border-bottom: 2px solid aliceblue;
+}
+
+.df404-goback:hover {
+  color: #00C5DB;
+  border-bottom: 2px solid #00C5DB;
+}

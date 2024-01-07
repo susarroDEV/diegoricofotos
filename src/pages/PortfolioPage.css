@@ -1,0 +1,61 @@
+.dfp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.dfp-container h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dfp-container p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.dfp-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 20px
+}
+
+.dfp-projects > * {
+  width: 200px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.dfp-projects > *:hover {
+  width: 500px;
+}
+
+.dfp-project-pucelacup {
+  background-image: url(../../assets/PucelaCupLogo.png);
+}
+
+.dfp-project-vuelta {
+  background-image: url(../../assets/VueltaLogo.png);
+}
+
+.dfp-project-maraton {
+  background-image: url(../../assets/MaratonLogo.png);
+}

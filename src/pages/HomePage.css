@@ -1,0 +1,174 @@
+main {
+  margin: 3.5% 15% 0 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.5fr 1fr 1fr;
+  gap: 1rem;
+}
+
+main >  * {
+  background-color: #2F6E75;
+  border-radius: 1.5rem;
+  border: 4px solid #284042;
+  color: aliceblue;
+  padding: 1.5vw;
+  transition: box-shadow 0.5s ease;
+}
+
+main > *:hover {
+  box-shadow: 0 0 0.5rem 0.25rem #577b80;
+}
+
+.dfh-brand {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.dfh-brand h1 {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  color: #00DCF5;
+}
+
+.dfh-logo {
+  background-image: url(../../assets/DRLogo.png);
+  background-size: 10vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-row: 2 / span 2;
+  grid-column: 1 / span 1;
+}
+
+.dfh-photo {
+  background-image: url(../../assets/DiegoMainPhoto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -12vw;
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 4;
+}
+
+.dfh-employment {
+  grid-row: 3;
+  grid-column: 2;
+  text-align: center;
+}
+
+.dfh-name {
+  grid-row: 4;
+  grid-column: 2 / span 2;
+  display: grid;
+  place-content: center;
+}
+
+.dfh-name p {
+  font-size: 1.5vw;
+  color: aliceblue;
+  text-align: center;
+}
+
+.dfh-name p strong {
+  text-align: center;
+  color: #00DCF5;
+  text-align: center;
+}
+
+.dfh-ubication {
+  grid-row: 3;
+  grid-column: 3;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.dfh-ubication p {
+  font-size: 1.2vw;
+  font-weight: 900;
+}
+
+.dfh-phrase {
+  grid-row: 5;
+  grid-column: 1 / span 4;
+  font-size: 1.9vw;
+  text-align: center;
+}
+
+.dfh-socialmedia {
+  grid-row: 2 ;
+  grid-column: 2 / span 2;
+  background-color: #00BCD1;
+}
+
+.dfh-socialmedia > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  gap: 3.5vw;
+}
+
+.dfh-socialmedia > ul > li {
+  filter: none;
+}
+
+.dfh-socialmedia > ul > li :hover {
+  filter: brightness(0) invert(1) drop-shadow(0 0 1.5rem #ffffff);
+}
+
+.dfh-contact {
+  grid-row: 5;
+  grid-column: 5 / span 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00BCD1;
+}
+
+.dfh-contact p, .dfh-contact a {
+  font-size: 0.75vw;
+  font-weight: bold;
+  text-align: center;
+  text-wrap: wrap;
+  color: aliceblue;
+  filter: brightness(0) invert(0);
+}
+
+.dfh-contact a:hover {
+  filter: brightness(0) invert(1) drop-shadow(0 0 1.5rem #ffffff);
+}
+
+
+.dfh-nav {
+  grid-row: 4;
+  grid-column: 1 / span 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00BCD1;
+}
+
+.dfh-nav p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25vw;
+  font-weight: bold;
+  text-align: center;
+  color: #284042;
+}
+
+.dfh-nav p:hover {
+  color: #ffffff;
+  filter: drop-shadow(0 0 0.5rem #00BCD1);
+}
