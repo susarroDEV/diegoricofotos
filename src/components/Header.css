@@ -1,0 +1,46 @@
+.dfh-container {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 100vw;
+  height: 10vh;
+  padding: 20px 20px;
+  gap: 20px;
+  top: 0px;
+  background-color: #151f20;
+}
+
+.dfh-container img {
+  margin-top: 20px;
+  width: 4vw;
+  margin-bottom: 20px;
+}
+
+.dfh-container h1 {
+  color: #e2e2e2;
+  margin-top: 3vw;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dfh-container > a {
+  margin-top: 1vw;
+  margin-left: 65%;
+
+}
+
+.dfh-container > a > svg {
+  text-decoration: none;
+  color: #e2e2e2;
+  width: 100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.dfh-container > a > svg:hover {
+  color: #577b80;
+}
